@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Jost:wght@300;500&display=swap');
+
 *,
 *::before,
 *::after {
@@ -7,44 +8,43 @@
     box-sizing: border-box;
 }
 
-html{
+html {
     font-size: 62.5%;
     font-family: 'Jost', sans-serif;
 
 }
 
-.main_div{
+.main_div {
     width: 100vw;
     height: 100vh;
     background-color: #f6f6f6;
     display: grid;
     place-items: center;
     background-color: rgb(55, 56, 66);
-
 }
 
-.music_container{
+.music_container {
     width: 35rem;
     height: 55rem;
     background-color: #ffffff;
     border-radius: 2rem;
-    box-shadow: 0 1.2rem 3rem 0.5rem rgba(0,0,0,0.2);
+    box-shadow: 0 1.2rem 3rem 0.5rem rgba(0, 0, 0, 0.2);
     padding: 3rem;
     text-align: center;
 }
 
-.music_container #title{
+.music_container #title {
     text-transform: uppercase;
     letter-spacing: 0.2rem;
     word-spacing: 0.5rem;
     color: #171717;
-    margin:  2rem 0 0.5rem 0;
+    margin: 2rem 0 0.5rem 0;
     font-size: 2.5rem;
     font-weight: 500;
-    text-shadow: 0 0.3rem 0.5rem    rgba(0,0,0,0.3);
+    text-shadow: 0 0.3rem 0.5rem rgba(0, 0, 0, 0.3);
 }
 
-.music_container #artist{
+.music_container #artist {
     color: #cccaca;
     text-transform: capitalize;
     letter-spacing: 0.1rem;
@@ -53,22 +53,21 @@ html{
     font-weight: 300;
 }
 
-.img_container{
+.img_container {
     width: 25rem;
     height: 25rem;
     margin: auto;
-
 }
 
-img{
+img {
     width: 100%;
     height: 100%;
     border-radius: 50%;
     object-fit: cover;
-    box-shadow: 0 1.2rem 3rem 0.5rem rgba(0,0,0,0.2);
+    box-shadow: 0 1.2rem 3rem 0.5rem rgba(0, 0, 0, 0.2);
 }
 
-.music_controls{
+.music_controls {
     width: 20rem;
     display: flex;
     justify-content: space-between;
@@ -77,14 +76,14 @@ img{
     margin-top: 5rem;
 }
 
-.music_controls .fas{
+.music_controls .fas {
     color: black;
     font-size: 2rem;
     cursor: pointer;
-    filter: drop-shadow( 0 1.2rem 3rem 0.5rem rgba(0,0,0,0.4));
+    filter: drop-shadow(0 1.2rem 3rem 0.5rem rgba(0, 0, 0, 0.4));
 }
 
-.music_controls .main_button{
+.music_controls .main_button {
     width: 5rem;
     height: 5rem;
     border-radius: 50%;
@@ -96,20 +95,20 @@ img{
     align-items: center;
 }
 
-.music_controls .fas:hover{
+.music_controls .fas:hover {
     color: grey;
 }
 
-.music_controls .fa-play:hover{
+.music_controls .fa-play:hover {
     background-color: #f6f6f6;
     color: black;
-    box-shadow: 0 1rem 2rem 0.2rem rgba(0, 0 ,0, 0.4);
+    box-shadow: 0 1rem 2rem 0.2rem rgba(0, 0, 0, 0.4);
 }
 
-.music_controls .fa-pause:hover{
+.music_controls .fa-pause:hover {
     background-color: #f6f6f6;
     color: black;
-    box-shadow: 0 1rem 2rem 0.2rem rgba(0, 0 ,0, 0.4);
+    box-shadow: 0 1rem 2rem 0.2rem rgba(0, 0, 0, 0.4);
 }
 
 
@@ -119,12 +118,12 @@ img{
 }
 
 @keyframes rotatePlayer {
-    from { transform: rotate(0deg);}
-    to {
-transform: rotate(360deg);
+    from {
+        transform: rotate(0deg);
     }
-    
+
+    to {
+        transform: rotate(360deg);
+    }
+
 }
-
-
-
