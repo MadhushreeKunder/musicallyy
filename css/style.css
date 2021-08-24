@@ -127,3 +127,17 @@ img {
     }
 
 }
+
+@media (max-width: 800px) {
+ 
+.main_div{
+    background-color: #ffffff;
+}    
+
+.music_container{
+    box-shadow: none;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+}
