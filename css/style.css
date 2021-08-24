@@ -129,6 +129,10 @@ img {
 }
 
 @media (max-width: 800px) {
+
+    html{
+        font-size: 70%;
+    }
  
 .main_div{
     background-color: #ffffff;
