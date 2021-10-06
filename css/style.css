@@ -95,7 +95,7 @@ img {
     align-items: center;
 }
 
-.music_controls .fas:hover {
+.music_controls .fas:hover .fas:focus {
     color: grey;
 }
 
